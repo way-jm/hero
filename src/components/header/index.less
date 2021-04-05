@@ -1,0 +1,30 @@
+@import "../../common/style/variables";
+
+.mh{
+  height: @headerHeight;
+  line-height: 88/@rem;
+  width: 100%;
+  font-size: 0;
+  background: white;
+  position: relative;
+  .nav{
+    position: absolute;
+    display: inline-block;
+    width: 48/@rem;
+    height: 48/@rem;
+    top:50%;
+    transform: translateY(-50%);
+    left:32/@rem;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .title{
+    width: 100%;
+    font-size: 36/@rem;
+    text-align: center;
+    font-weight: bold;
+    color: #14161F;
+  }
+}
